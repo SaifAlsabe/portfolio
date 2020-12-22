@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="thumbs/tab-icon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Saif Alsabe</title>
+</head>
+
+<body>
+
+    <!-- navigation bar -->
+
+    <nav>
+        <div class="logo"><a href="#home">SA</a></div>
+
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- main -->
+
+    <div class="main">
+
+        <!-- landing screen -->
+
+        <section id="home">
+            <div class="user">
+                <h1 class="name">SAIF ALSABE</h1>
+                <h3 class="profession">Full Stack Web Developer</h3>
+                <a class="cv" href="Saif_Alsabe_CV.pdf" target="_blank">Download Resume</a>
+            </div>
+
+            <div class="skills"></div>
+        </section>
+
+        <!-- projects -->
+
+        <section id="projects">
+
+            <h1 class="title col-sm-12">Projects</h1>
+
+            <div class="projects">
+
+                <div class="project">
+                    <div class="image">
+                        <img src="./thumbs/carbon.png">
+                        <div class="links">
+                            <a href="https://github.com/SaifAlsabe/ecommerce-new" class="project-link">Source Code</a>
+                            <a href="https://shop-carbon.herokuapp.com/" class="project-link">Demo</a>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <h3>Ecommerce Website</h3>
+                        <p>Create an account, update your profile info, add items to cart and start shopping online.</p>
+                        <p>Technologies used: TypeScript, HTML, CSS, React, Redux, Node, JWT and MongoDB.</p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="image">
+                        <img src="./thumbs/weather.png">
+                        <div class="links">
+                            <a href="https://github.com/SaifAlsabe/weather-station" class="project-link">Source Code</a>
+                            <a href="https://weather-station-api-app.herokuapp.com/" class="project-link">Demo</a>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <h3>Weather Station</h3>
+                        <p>Uses <a href="https://openweathermap.org/api">openweathermap API</a> to display detailed weather forecast.</p>
+                        <p>Technologies used: HTML, CSS, JavaScript, React, Redux, GSAP, Chart.js and Node.</p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="image">
+                        <img src="./thumbs/linkus.png">
+                        <div class="links">
+                            <a href="https://github.com/SaifAlsabe/chat-app" class="project-link">Source Code</a>
+                            <a href="https://linkus-chat-app.herokuapp.com/" class="project-link">Demo</a>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <h3>Chat Rooms Application</h3>
+                        <p>Join an existing chat room, create your own room, see online users and send messages using web sockets.</p>
+                        <p>Technologies used: HTML, CSS, vanilla JavaScript, Node and Socket.IO</p>
+                    </div>
+
+                </div>
+
+                <div class="project">
+                    <div class="image">
+                        <img src="./thumbs/portfolio.png">
+                        <div class="links">
+                            <a href="https://github.com/SaifAlsabe/SaifAlsabe.github.io" class="project-link">Source
+                                Code</a>
+                            <a href="https://saifalsabe.github.io/" class="project-link">Demo</a>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <h3>Portfolio</h3>
+                        <p>Technologies used: HTML, CSS, JavaScript.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- contact -->
+
+        <section id="contact">
+
+            <h1 class="title">Contact</h1>
+            <h1 class="sub-title">Let's get in touch and create something special.</h1>
+
+            <div class="container">
+                <ul class="contact-info">
+                    <li>
+                        <div class="label">
+                            <i class="fas fa-home"></i>
+                            <span class="contact-item">Address</span>
+                        </div>
+                        <p>Springfield, VA<br /> United States</p>
+                    </li>
+                    <li>
+                        <div class="label">
+                            <i class="fas fa-envelope"></i>
+                            <span class="contact-item">Email</span>
+                        </div>
+                        <div> <a href="mailto: saif.alsabe@gmail.com" class="clickable">saif.alsabe@gmail.com</a></div>
+                    </li>
+                    <li>
+                        <div class="label">
+                            <span class="contact-item">Follow Me</span>
+                        </div>
+                        <div class="social ">
+                            <a href="https://github.com/SaifAlsabe"><i class="fab fa-github clickable"></i></a>
+                            <a href="https://www.linkedin.com/in/SaifAlsabe"><i
+                                    class="fab fa-linkedin-in clickable"></i></a>
+                        </div>
+                    </li>
+                </ul>
+
+                <form method="POST" netlify>
+                    <input class="form-element" type="text" id="name" name="name" placeholder="Name">
+                    <input class="form-element" type="email" id="email" name="email" placeholder="Email">
+                    <input class="form-element" type="text" id="subject" name="subject" placeholder="Subject">
+                    <textarea class="form-element" id="message" name="message" placeholder="Message"></textarea>
+                    <button class="form-element" type="submit" id="submit" class="submit">Send</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>&copy; 2020 Saif Alsabe. All rights reserved.</footer>
+
+</body>
+
+<!-- Libraries -->
+<script src="./TagCloud-master/dist/TagCloud.min.js"></script>
+<script src="app.js"></script>
+
+</html>
